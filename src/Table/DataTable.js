@@ -3,12 +3,11 @@ import React, { useState } from "react";
 
 export default function DataTable() {
     const initialData = [
-        { id: 1, firstName: "Dart", lastName: "Vader", age: 100, birthDate: "1921-01-01", country: "USA", city: "Los Angeles" },
+        { id: 1, firstName: "Fatemeh", lastName: "Sojudi", age: 35, birthDate: "1986-01-01", country: "Sweden", city: "Växjö " },
         { id: 2, firstName: "Åsa", lastName: "Jonsson", age: 50, birthDate: "1971-04-15", country: "Sweden", city: "Växjö" },
-        { id: 3, firstName: "Shalini", lastName: "Jonsson", age: 28, birthDate: "1993-03-29", country: "Sweden", city: "Växjö" },
-        { id: 4, firstName: "Arvid", lastName: "Larsson", age: 45, birthDate: "1976-10-07", country: "Sweden", city: "Ronneby" },
-        { id: 5, firstName: "Towa", lastName: "Jämsborn", age: 56, birthDate: "1965-04-17", country: "Sweden", city: "Kalmar" }
-    ];
+        { id: 3, firstName: "Sara", lastName: "Nasiri", age:36, birthDate: "1985-03-29", country: "Sweden", city: "Växjö" },
+        { id: 4, firstName: "Zahra", lastName: "Sojudi", age: 45, birthDate: "1976-10-07", country: "Sweden", city: "Ronneby" }
+        ];
 
     const [studentList] = useState(initialData);
     const [showDetails, setShowDetails] = useState(false);
